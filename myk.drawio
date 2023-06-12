@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T05:49:42.289Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="s8_V03QJqcK6zJFDJMk8" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T07:17:52.273Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="tgBlVwzUf2T2gtpTzWG1" version="21.3.8" type="github">
   <diagram name="페이지-1" id="lN_Ez4DPIi1FrcsFWHEU">
     <mxGraphModel dx="700" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -63,8 +63,50 @@
         <mxCell id="ol7Jl4catJTsZAui1Esi-5" value="onAir Click&lt;br&gt;(Bottom Menu)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="389" width="110" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ol7Jl4catJTsZAui1Esi-7" target="ol7Jl4catJTsZAui1Esi-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ol7Jl4catJTsZAui1Esi-7" value="onLoadFragment" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="395" y="510" width="120" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-11" value="onPlayingData(bundle)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="621" width="150" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-15" value="bundle.putString(&quot;type&quot;, &quot;live&quot;)&lt;br&gt;bundle.putString(&quot;value&quot;, channelCode)&lt;br&gt;bundle.putString(&quot;url&quot;, menuUrl)&lt;br&gt;bundle.putString(&quot;option&quot;, menuUrl)" style="whiteSpace=wrap;html=1;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="350" y="652" width="210" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ol7Jl4catJTsZAui1Esi-17" target="ol7Jl4catJTsZAui1Esi-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-17" value="MainPlayerFragment" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="621" width="150" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-21" value="onCreateView" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="652" width="150" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ol7Jl4catJTsZAui1Esi-22" target="ol7Jl4catJTsZAui1Esi-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-22" value="onActivityCreated&lt;br&gt;ㄴinitPlayerData()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="683" width="150" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.334;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ol7Jl4catJTsZAui1Esi-23" target="ol7Jl4catJTsZAui1Esi-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-23" value="if (mPlayer == null) {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;MainApp.app.mPlayer.setPlayerViewFragment(this, PlayerService.CURRENT_FRAGMENT_MAINPLAYERFRAGMENT);&lt;br&gt;}" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="340" y="760" width="380" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-25" value="mPlayerUpdateListener.reserveService(this);&lt;br&gt;--&amp;gt; MainPlayerFragment&#39;s mPlayer&lt;br&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="340" y="890" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-27" value="onResume" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="980" width="150" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-28" value="onInitPlayer" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1011" width="150" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="ol7Jl4catJTsZAui1Esi-29" value="updateView" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1030" width="150" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
