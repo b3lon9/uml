@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-14T01:09:04.390Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="JGWVa2jFnw1iUUcvZgAS" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-14T01:31:07.712Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XvpI7AMpDc_5YJr2b-1n" version="21.3.8" type="github">
   <diagram name="페이지-1" id="lN_Ez4DPIi1FrcsFWHEU">
     <mxGraphModel dx="1050" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -587,7 +587,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NQmtmyxozf-WUEjUSKZb-138" value="getMediaView" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#dae8fc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="2240" y="2206" width="360" height="130" as="geometry">
+          <mxGeometry x="2340" y="2160" width="360" height="130" as="geometry">
             <mxRectangle x="740" y="-140" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -649,7 +649,7 @@
         <mxCell id="NQmtmyxozf-WUEjUSKZb-158" value="MainPlayerFragment&lt;br&gt;- ConstraintLayout&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;b&gt;playerLayout&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;size=72;direction=east;flipH=1;align=left;spacingLeft=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2660" y="2360" width="300" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="NQmtmyxozf-WUEjUSKZb-159" value="MainPlayerFragment&lt;br&gt;- KMediaControllerView&lt;br&gt;R.layout.playerView&lt;br&gt;&lt;b&gt;= mControllerView&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;size=72;direction=east;flipH=1;align=left;spacingLeft=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="NQmtmyxozf-WUEjUSKZb-159" value="MainPlayerFragment&lt;br&gt;- KMediaControllerView&lt;br&gt;@+id/playerView&lt;br&gt;&lt;b&gt;= mControllerView&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;size=72;direction=east;flipH=1;align=left;spacingLeft=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="2860" y="2360" width="300" height="280" as="geometry" />
         </mxCell>
         <mxCell id="NQmtmyxozf-WUEjUSKZb-160" value="KMediaControllerView&lt;br&gt;- mMediaView = mPlayerService" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;size=72;direction=east;flipH=1;align=left;spacingLeft=50;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
@@ -695,6 +695,12 @@
         </mxCell>
         <mxCell id="NQmtmyxozf-WUEjUSKZb-173" value="add fragment" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="2660" y="2320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NQmtmyxozf-WUEjUSKZb-178" value="MainPlayerFragment&lt;br&gt;- FrameLayout&lt;br&gt;@+id/&lt;b&gt;web_content_layout&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;size=72;direction=east;flipH=1;align=left;spacingLeft=50;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="2570" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NQmtmyxozf-WUEjUSKZb-179" value="setDisplay는 해당 SurfaceView에 MediaPlayer에서 출력하는 내용을 넣는 곳이라고 이해하면 된다" style="whiteSpace=wrap;html=1;fontSize=14;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2720" y="2170" width="220" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
