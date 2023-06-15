@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T05:19:21.489Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="jqdsrva4i-1iU7HbSskm" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T05:58:19.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Hr5MQdiq78WPkGmvHW9R" version="21.4.0" type="github">
   <diagram name="페이지-1" id="lN_Ez4DPIi1FrcsFWHEU">
-    <mxGraphModel dx="1050" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -713,7 +713,7 @@
         <mxCell id="cqK6le-5-vnNTWgdseSS-4" value="Vast2StaticVariables.loadAdPolicyInfUnLoaded" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cqK6le-5-vnNTWgdseSS-3" vertex="1">
           <mxGeometry y="47" width="310" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="cqK6le-5-vnNTWgdseSS-5" value="initializeAds()" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cqK6le-5-vnNTWgdseSS-3" vertex="1">
+        <mxCell id="cqK6le-5-vnNTWgdseSS-5" value="initializeAds()&amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// policy의 내용을 cms에 넣어준다" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cqK6le-5-vnNTWgdseSS-3" vertex="1">
           <mxGeometry y="80" width="310" height="26" as="geometry" />
         </mxCell>
         <mxCell id="cqK6le-5-vnNTWgdseSS-6" value="&lt;b&gt;playVideoAdIfHasNext();&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="cqK6le-5-vnNTWgdseSS-3" vertex="1">
@@ -876,16 +876,16 @@
         <mxCell id="wSoGZj1DwTUzsWHYXODp-27" value="무슨 역할인지 잘모르겠네?" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wSoGZj1DwTUzsWHYXODp-26">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="wSoGZj1DwTUzsWHYXODp-33" value="&lt;b&gt;loadSMRAd&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="4250" y="2310" width="270" height="80" as="geometry">
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-33" value="&lt;b&gt;loadSMRAd&lt;br&gt;이곳에서 최종적으로 광고영상을 실행&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=50;fillColor=#f8cecc;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="4250" y="2310" width="270" height="102" as="geometry">
             <mxRectangle x="740" y="-140" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="wSoGZj1DwTUzsWHYXODp-34" value="smr url init" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wSoGZj1DwTUzsWHYXODp-33">
-          <mxGeometry y="26" width="270" height="26" as="geometry" />
+          <mxGeometry y="50" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wSoGZj1DwTUzsWHYXODp-35" value="mVastAdLoader.&lt;b&gt;loadVastAd&lt;/b&gt;(copySmr, listener);" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wSoGZj1DwTUzsWHYXODp-33">
-          <mxGeometry y="52" width="270" height="26" as="geometry" />
+          <mxGeometry y="76" width="270" height="26" as="geometry" />
         </mxCell>
         <mxCell id="wSoGZj1DwTUzsWHYXODp-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="cqK6le-5-vnNTWgdseSS-10" target="wSoGZj1DwTUzsWHYXODp-35">
           <mxGeometry relative="1" as="geometry" />
@@ -907,7 +907,7 @@
         <mxCell id="wSoGZj1DwTUzsWHYXODp-43" value="Row 4" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wSoGZj1DwTUzsWHYXODp-39">
           <mxGeometry y="104" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="wSoGZj1DwTUzsWHYXODp-44" value="&lt;b&gt;loadVastAd(JWT, listener)&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-44" value="&lt;b&gt;loadVastAd(JWT, listener)&lt;br&gt;요청한 smr을 파싱한다... 그것이 VAST...?&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="4620" y="2350" width="400" height="70" as="geometry">
             <mxRectangle x="740" y="-140" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
