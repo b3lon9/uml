@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T05:58:19.422Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Hr5MQdiq78WPkGmvHW9R" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-15T07:20:28.002Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="oEJSiFqPhdcMOIaRJoXo" version="21.4.0" type="github">
   <diagram name="페이지-1" id="lN_Ez4DPIi1FrcsFWHEU">
     <mxGraphModel dx="1105" dy="723" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -891,7 +891,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wSoGZj1DwTUzsWHYXODp-39" value="Function" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="5010" y="2200" width="160" height="130" as="geometry">
+          <mxGeometry x="5070" y="2090" width="160" height="130" as="geometry">
             <mxRectangle x="740" y="-140" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -907,13 +907,18 @@
         <mxCell id="wSoGZj1DwTUzsWHYXODp-43" value="Row 4" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wSoGZj1DwTUzsWHYXODp-39">
           <mxGeometry y="104" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="wSoGZj1DwTUzsWHYXODp-44" value="&lt;b&gt;loadVastAd(JWT, listener)&lt;br&gt;요청한 smr을 파싱한다... 그것이 VAST...?&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="4620" y="2350" width="400" height="70" as="geometry">
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-58" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wSoGZj1DwTUzsWHYXODp-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="5160" y="2385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-44" value="&lt;b&gt;[ VastAdLoader ]&lt;br&gt;&lt;br&gt;loadVastAd(JWT, listener)&lt;br&gt;요청한 smr을 파싱한다... 그것이 VAST...?&lt;br&gt;&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=90;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="4620" y="2290" width="400" height="180" as="geometry">
             <mxRectangle x="740" y="-140" width="90" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wSoGZj1DwTUzsWHYXODp-45" value="this.httpClient.requestDocument(new AsyncHttpClientTransaction())" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="wSoGZj1DwTUzsWHYXODp-44">
-          <mxGeometry y="26" width="400" height="44" as="geometry" />
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-45" value="this.httpClient.requestDocument(new AsyncHttpClientTransaction())&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;이곳에 들어간 Url은 해당 VOD의 Vast XML이다&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="wSoGZj1DwTUzsWHYXODp-44">
+          <mxGeometry y="90" width="400" height="70" as="geometry" />
         </mxCell>
         <mxCell id="wSoGZj1DwTUzsWHYXODp-49" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wSoGZj1DwTUzsWHYXODp-35">
           <mxGeometry relative="1" as="geometry">
@@ -924,7 +929,38 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="wSoGZj1DwTUzsWHYXODp-50" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;※SMR 제작과정 copySmr?&lt;br&gt;- Policy문서에서 SMRs태그내에&lt;br&gt;basementURL + basementPage를 더하고, 하위 SMR 리스트를 따로 담는다&lt;br&gt;&lt;br&gt;그리고 이후 parseSMR메서드를 통해서 VasePlayerPolicyVideo객체를 생성한다&lt;br&gt;&lt;b&gt;copySmr = 해당 비디오 URL + JWT Token()&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=16;align=left;" vertex="1" parent="1">
-          <mxGeometry x="4570" y="2458.5" width="500" height="140" as="geometry" />
+          <mxGeometry x="4570" y="2490" width="500" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-52" value="Parsing..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#666666;fillColor=#f5f5f5;fontSize=16;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="5050" y="2340" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-53" value="[AsyncHttpClientAdWrapper]&lt;br&gt;&lt;br&gt;requestDocument" style="swimlane;html=1;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=60;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="5160" y="2323" width="320" height="114" as="geometry">
+            <mxRectangle x="740" y="-140" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-54" value="getDocument(transaction);" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wSoGZj1DwTUzsWHYXODp-53">
+          <mxGeometry y="60" width="320" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-65" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wSoGZj1DwTUzsWHYXODp-59" target="wSoGZj1DwTUzsWHYXODp-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-59" value="[ AsyncHttpClientTransaction ]&lt;br&gt;&lt;br&gt;..." style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="5470" y="2191" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-60" value="[ AsyncHttpClientAdWrapper ]&lt;br&gt;&lt;br&gt;&lt;b&gt;getDocument()&lt;/b&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=65;fillColor=#f5f5f5;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="5520" y="2325" width="280" height="140" as="geometry">
+            <mxRectangle x="740" y="-140" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-61" value="RequestHandle requestHandle = get(transaction, httpHandler)&lt;br&gt;&lt;br&gt;response 전달" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="wSoGZj1DwTUzsWHYXODp-60">
+          <mxGeometry y="65" width="280" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-66" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.001;entryY=0.254;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="wSoGZj1DwTUzsWHYXODp-54" target="wSoGZj1DwTUzsWHYXODp-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wSoGZj1DwTUzsWHYXODp-67" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=-0.01;exitY=0.702;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wSoGZj1DwTUzsWHYXODp-61" target="wSoGZj1DwTUzsWHYXODp-54">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
