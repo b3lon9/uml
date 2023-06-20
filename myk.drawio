@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-20T04:14:52.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="uJ5phOb81JYqWd5oVM27" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-20T09:00:18.506Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="GRi6QGJe8D-nkvYRKjZc" version="21.5.0" type="github">
   <diagram name="페이지-1" id="lN_Ez4DPIi1FrcsFWHEU">
-    <mxGraphModel dx="467" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1214" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1332,7 +1332,7 @@
         <mxCell id="UK6nDMppj-HIZp1clxQx-101" value="PlayerControls" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;align=center;spacingLeft=15;" parent="UK6nDMppj-HIZp1clxQx-85" vertex="1">
           <mxGeometry x="1100" width="185" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="XLf_rmQO8lhNHTqJiWxx-4" value="afterViewCreated()" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-4" value="afterViewCreated()" style="whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1320" y="3990" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="XLf_rmQO8lhNHTqJiWxx-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;" edge="1" parent="1">
