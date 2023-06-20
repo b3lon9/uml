@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-20T01:52:40.140Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="H3s6KpCxAjf3jv-1CNJ7" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-20T02:26:39.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="x2bLVmpD5rOAqAgHlSN0" version="21.5.0" type="github">
   <diagram name="페이지-1" id="lN_Ez4DPIi1FrcsFWHEU">
-    <mxGraphModel dx="583" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="304" dy="199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1525,7 +1525,7 @@
           <mxGeometry x="2047.5" y="4590" width="160" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XLf_rmQO8lhNHTqJiWxx-47" value="initData()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;align=left;" vertex="1" parent="1">
-          <mxGeometry x="2047.5" y="4620" width="160" height="20" as="geometry" />
+          <mxGeometry x="2047.5" y="4620" width="62.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XLf_rmQO8lhNHTqJiWxx-48" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1535,6 +1535,81 @@
               <mxPoint x="2020" y="4660" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-49" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2080" y="4640" as="sourcePoint" />
+            <mxPoint x="2108" y="4670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2080" y="4700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-50" value="initPlayerData()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2107.5" y="4660" width="92.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-51" value="viewModelScope.launch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="1955" y="4655" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-53" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="XLf_rmQO8lhNHTqJiWxx-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2080" y="4670" as="sourcePoint" />
+            <mxPoint x="2108" y="4700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2080" y="4730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-54" value="initPlayerCallbackScreenData()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2107.5" y="4730" width="162.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-55" value="[Constant]&lt;br&gt;root 주소" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fontSize=11;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="4530" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-57" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2150" y="4680" as="sourcePoint" />
+            <mxPoint x="2181" y="4695" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2151" y="4735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-59" value="val spCurrentChannerCode = getSpOnairCurrentChannel()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2181.5" y="4685" width="308.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-60" value="[Constant]&lt;br&gt;root 주소" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;fontSize=11;direction=north;" vertex="1" parent="1">
+          <mxGeometry x="2360" y="4515" width="120" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-61" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2390" y="4705" as="sourcePoint" />
+            <mxPoint x="2421" y="4720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2391" y="4760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-62" value="return (val response = getOnairChannelByChannelCodeUseCase.execute(channelCode))" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2425" y="4710" width="445" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-64" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2485" y="4730" as="sourcePoint" />
+            <mxPoint x="2485" y="4750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2455" y="4740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-65" value="return requestWrapper { wwwApiRepository.requestOnairChannelByChannelCode(channelCode)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2490" y="4740" width="480" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-66" value="[wwwApiRepositoryImpl]&lt;br&gt;@Inject constructor(&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;@WwwApiNetwork private val service : WwwApiService) : &lt;b&gt;WwwApiRepository&lt;/b&gt;&amp;nbsp;&lt;br&gt;)" style="whiteSpace=wrap;html=1;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2570" y="4770" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-67" value="@Module&lt;br&gt;@InstallIn(SingletonComponent::class)&lt;br&gt;[RepositoryModule]&lt;br&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;@Provides&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;@Singleton&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;fun provideWwwApiRepository(&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;@WwwApiNetwork&amp;nbsp;wwwApiService:WwwApiService)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;)" style="whiteSpace=wrap;html=1;fontSize=10;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2810" y="4770" width="290" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
