@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-20T00:56:36.176Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="huTp6cIcQhToX6TmOOO4" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-20T01:09:43.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="6SW-h6FZg5thIjt7tFu7" version="21.5.0" type="github">
   <diagram name="페이지-1" id="lN_Ez4DPIi1FrcsFWHEU">
-    <mxGraphModel dx="840" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="583" dy="382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1398,6 +1398,35 @@
         </mxCell>
         <mxCell id="XLf_rmQO8lhNHTqJiWxx-18" value="mPlayerFragment.mControls는 commit되고 viewCreated되는 시점에 초기화된다" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="1720" y="4200" width="420" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-19" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1670" y="4240" as="sourcePoint" />
+            <mxPoint x="1720" y="4290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1670" y="4260" />
+              <mxPoint x="1635" y="4290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-22" value="mPlayerControls.bind(mPlayer, mPlayerControlViewModel, viewLifecycleOwner)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="4276" width="400" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-23" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=0.324;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XLf_rmQO8lhNHTqJiWxx-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1950" y="4300" as="sourcePoint" />
+            <mxPoint x="1890" y="4350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1850" y="4320" />
+              <mxPoint x="1915" y="4350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-24" value="Dagger Hilt =__=..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1995" y="4306" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XLf_rmQO8lhNHTqJiWxx-25" value="bindPlayer(player);&lt;br style=&quot;font-size: 11px;&quot;&gt;bindObserver(viewModel by OnairPlayerControlsViewModel)&lt;br style=&quot;font-size: 11px;&quot;&gt;bindListener(viewModel)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1891" y="4340" width="329" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
