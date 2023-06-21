@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T01:58:26.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BmTVi9ZJAb1dQ_s4t_GE" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-21T02:03:11.443Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="3eO4y2fvEEh-c2YGfG-M" version="21.5.0" type="github">
   <diagram name="Page-1" id="5d7acffa-a066-3a61-03fe-96351882024d">
     <mxGraphModel dx="875" dy="573" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -405,6 +405,30 @@
         </mxCell>
         <mxCell id="meqDQdUAkU52JyBfAQbt-4" value="override fun bind( ... ) {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bindPlayer(player)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bindObserver(viewModel as OnairPlayerControlsViewModel)&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// 아이콘변경&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bindListener(viewModel)&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;// 기능 리스너&lt;br&gt;}" style="whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=10;fontFamily=Courier New;" vertex="1" parent="1">
           <mxGeometry x="2040" y="1275" width="530" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="meqDQdUAkU52JyBfAQbt-6" value="bindListener( ... ) {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;listenerDropdown(viewModel)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bindListenerRelatedAd(viewModel)&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;bindListenerRelatedContent(viewModel)&lt;br&gt;}" style="whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=10;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="1380" width="430" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="meqDQdUAkU52JyBfAQbt-8" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=0.03;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="meqDQdUAkU52JyBfAQbt-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2085.9" y="1360" as="sourcePoint" />
+            <mxPoint x="2170" y="1420.85" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2086" y="1390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meqDQdUAkU52JyBfAQbt-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=0.03;exitY=0.99;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2277.9500000000003" y="1450" as="sourcePoint" />
+            <mxPoint x="2332.05" y="1513" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2278.05" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="meqDQdUAkU52JyBfAQbt-10" value="private fun listenerPlay(viewModel:OnairPlayerControlsViewModel) {&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;togglePlay.setOnClickListener { viewModel.togglePlay() }&lt;br&gt;}" style="whiteSpace=wrap;html=1;fontSize=11;align=left;spacingLeft=10;fontFamily=Courier New;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="1495" width="450" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
