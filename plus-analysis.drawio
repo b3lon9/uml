@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T05:32:50.564Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Ue8JJQ026-JIyjWSar3w" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T06:34:24.957Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="bIFZMcauzfszRBw11SZl" version="21.5.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1877" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1874" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -131,6 +131,58 @@
         </mxCell>
         <mxCell id="75Bb0L2DGQU1pPLaMlBI-57" value="&lt;ul&gt;&lt;li&gt;initPlayer()&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;JWPlayer, JWPlayerView 세팅&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;keepScreenOnHandler&lt;/li&gt;&lt;ul&gt;&lt;li&gt;JWPlayer addListener로 화면 켜짐 유지 ON/OFF용도&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;initPlayerControls()&lt;/li&gt;&lt;ul&gt;&lt;li&gt;플레이어 컨트롤하는 뷰 초기화 : OnairPlayerControls&lt;/li&gt;&lt;li&gt;&lt;b&gt;bind() - JWPlayer연결, OnairPlayerControlsViewModel liveData Observing&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;listenRelateAd 광고 리스너 연결&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;observePlayerControlsViewModel()&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;OnairPlayerControlsViewModel내에서 JWPlayer addListener로 이벤트받음&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;initCallbackScreen() : 현재 보여주는 방송에대한 간략한 정보를 나타내는 화면?&lt;/li&gt;&lt;ul&gt;&lt;li&gt;OnairCallbackScreenFragment초기화 (:OnairCallbackScreen )&lt;/li&gt;&lt;li&gt;OnairCallbackScreenViewModel초기화&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1220" y="170" width="660" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-60" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="75Bb0L2DGQU1pPLaMlBI-58" target="75Bb0L2DGQU1pPLaMlBI-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-58" value="광고시작" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1300" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-59" value="onAdBreakStart" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1494" y="530" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-61" value="isAdPlaying = true&lt;br&gt;updateContentUi()&lt;br&gt;updateAdsUi()" style="whiteSpace=wrap;html=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1494" y="590" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-63" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="75Bb0L2DGQU1pPLaMlBI-62" target="75Bb0L2DGQU1pPLaMlBI-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-62" value="observePlayerControlsViewModel" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="960" y="530" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-64" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="75Bb0L2DGQU1pPLaMlBI-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1560" y="745" as="sourcePoint" />
+            <mxPoint x="1610" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1574" y="740" />
+              <mxPoint x="1610" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-65" value="updateContentUi()" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1610" y="710" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-68" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1760" y="650" width="230" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-66" value="- play/pasue버튼 비활성화" style="whiteSpace=wrap;html=1;fontSize=16;align=left;spacingLeft=5;" vertex="1" parent="75Bb0L2DGQU1pPLaMlBI-68">
+          <mxGeometry y="60" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-67" value="view_onair_player_controls" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="75Bb0L2DGQU1pPLaMlBI-68">
+          <mxGeometry width="229.99999999999997" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-69" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="75Bb0L2DGQU1pPLaMlBI-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1574" y="740" as="sourcePoint" />
+            <mxPoint x="1610" y="790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1574" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-70" value="updateAdsUi()" style="whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1610" y="790" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
