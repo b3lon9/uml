@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T04:22:11.480Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Vd-0fhUFbUo_4tortc5d" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T05:07:18.237Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="LmhmZ-Z5achcIh0VGFFw" version="21.5.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1877" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -90,7 +90,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="75Bb0L2DGQU1pPLaMlBI-17" value="MotionLayout" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=16;flipH=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-17" value="MotionLayout&lt;br&gt;@+id/videoMotionLayout" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fontSize=16;flipH=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="520" y="521" width="280" height="174" as="geometry" />
         </mxCell>
         <mxCell id="75Bb0L2DGQU1pPLaMlBI-20" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="75Bb0L2DGQU1pPLaMlBI-2" target="75Bb0L2DGQU1pPLaMlBI-17">
@@ -110,6 +110,27 @@
         </mxCell>
         <mxCell id="75Bb0L2DGQU1pPLaMlBI-24" value="FrameLayout&lt;br&gt;@+id/contentViewContainer" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="780" y="820" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-25" value="afterViewCreated()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="760" y="110" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-27" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="75Bb0L2DGQU1pPLaMlBI-26" target="75Bb0L2DGQU1pPLaMlBI-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-26" value="OnairPlayerFragment" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="745" y="20" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-28" value="initPlayer()&lt;br&gt;KeepScreenOnHandler()&lt;br&gt;initPlayerControls()&lt;br&gt;observePlayerControlsViewModel()&lt;br&gt;&lt;br&gt;initCallbackScreen()&lt;br&gt;observeCallbackScreenViewModel()&lt;br&gt;&lt;br&gt;initChatView()&lt;br&gt;observeChatViewModel()&lt;br&gt;&lt;br&gt;initTouch()&lt;br&gt;initTransition()" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=16;align=left;spacingLeft=10;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="945" y="170" width="275" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-31" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="75Bb0L2DGQU1pPLaMlBI-25" target="75Bb0L2DGQU1pPLaMlBI-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="930" y="130" as="sourcePoint" />
+            <mxPoint x="980" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="75Bb0L2DGQU1pPLaMlBI-57" value="&lt;ul&gt;&lt;li&gt;initPlayer()&amp;nbsp;&lt;/li&gt;&lt;ul&gt;&lt;li&gt;JWPlayer, JWPlayerView 세팅&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;keepScreenOnHandler&lt;/li&gt;&lt;ul&gt;&lt;li&gt;JWPlayer addListener로 화면 켜짐 유지 ON/OFF용도&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;initPlayerControls()&lt;/li&gt;&lt;ul&gt;&lt;li&gt;플레이어 컨트롤하는 뷰 초기화 : OnairPlayerControls&lt;/li&gt;&lt;li&gt;&lt;b&gt;bind() - JWPlayer연결, OnairPlayerControlsViewModel liveData Observing&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;listenRelateAd 광고 리스너 연결&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;observePlayerControlsViewModel()&lt;/li&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;OnairPlayerControlsViewModel내에서 JWPlayer addListener로 이벤트받음&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;li&gt;initCallbackScreen() : 현재 보여주는 방송에대한 간략한 정보를 나타내는 화면?&lt;/li&gt;&lt;ul&gt;&lt;li&gt;OnairCallbackScreenFragment초기화 (:OnairCallbackScreen )&lt;/li&gt;&lt;li&gt;OnairCallbackScreenViewModel초기화&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1220" y="170" width="660" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
